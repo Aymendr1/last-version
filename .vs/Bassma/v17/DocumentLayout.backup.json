@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\bakery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|d:\\bakery\\bassma\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|d:\\bakery\\bassma\\views\\livraisons\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\views\\livraisons\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|d:\\bakery\\bassma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|d:\\bakery\\bassma\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\bakery\\Bassma\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "D:\\bakery\\Bassma\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Bassma\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T19:30:00.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\bakery\\Bassma\\Views\\Livraisons\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Views\\Livraisons\\Edit.cshtml",
+              "ToolTip": "D:\\bakery\\Bassma\\Views\\Livraisons\\Edit.cshtml",
+              "RelativeToolTip": "Bassma\\Views\\Livraisons\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T18:47:45.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\bakery\\Bassma\\Program.cs",
+              "RelativeDocumentMoniker": "Bassma\\Program.cs",
+              "ToolTip": "D:\\bakery\\Bassma\\Program.cs",
+              "RelativeToolTip": "Bassma\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:05:18.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\bakery\\Bassma\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "Bassma\\wwwroot\\css\\styles.css",
+              "ToolTip": "D:\\bakery\\Bassma\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "Bassma\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAE8CAAAAAAAAAAAAAFYCAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-26T21:15:14.475Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

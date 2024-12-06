@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\aymen\\onedrive\\desktop\\last-version\\bassma\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\aymen\\onedrive\\desktop\\last-version\\bassma\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\aymen\\onedrive\\desktop\\last-version\\bassma\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\aymen\\onedrive\\desktop\\last-version\\bassma\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2065282561:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "Bassma\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwEsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:43:10.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "Bassma\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAcwE4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:42:31.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "Bassma\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:39:25.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Bassma\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAKYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T19:12:38.504Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

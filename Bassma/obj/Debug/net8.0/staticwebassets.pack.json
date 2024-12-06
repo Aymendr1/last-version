@@ -1,0 +1,1813 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bassma.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bassma.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\css\\argon-dashboard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\argon-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\css\\argon-dashboard.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\argon-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\css\\argon-dashboard.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\argon-dashboard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\fonts\\nucleo.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.eot"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\fonts\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.ttf"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\fonts\\nucleo.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\fonts\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\bg-profile.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\carousel-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\carousel-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved0.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved11-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved5-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved6-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\curved9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\curved-images\\white-curved.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\white-curved.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\down-arrow-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\home-decor-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-decor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\home-decor-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-decor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\home-decor-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-decor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\icons\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\AU.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\icons\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\BR.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\icons\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\DE.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\icons\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\GB.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\icons\\flags\\US.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\US.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\illustrations\\icon-documentation.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\icon-documentation.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\illustrations\\rocket-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\rocket-white.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\ivana-square.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivana-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\ivancik.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivancik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\kal-visuals-square.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kal-visuals-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-ct-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\logo-ct.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-ct.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\logos\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\logos\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\marie.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\marie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\shapes\\pattern-lines.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\pattern-lines.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\shapes\\shape-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\shapes\\shape-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\shapes\\shape-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\shapes\\wave-down.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\shapes\\wave-up.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\shapes\\waves-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\shapes\\waves-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\small-logos\\icon-sun-cloud.png",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\icon-sun-cloud.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\small-logos\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-invision.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\small-logos\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-jira.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\small-logos\\logo-webdev.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-webdev.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\small-logos\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-xd.svg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\angular.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\angular.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\bootstrap.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\bootstrap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\dropbox.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\dropbox.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\react.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\react.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\sketch.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\sketch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\spotify.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\spotify.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\tim.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\tim.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\unass.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\unass.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\theme\\vue.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\vue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\img\\vr-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\vr-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\argon-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\argon-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\argon-dashboard.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\argon-dashboard.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\argon-dashboard.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\argon-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\jasmine.js",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\jasmine.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\mixins\\_auto-import-of-variables-dark.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\mixins\\_auto-import-of-variables-dark.test.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\mixins\\_color-modes.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\mixins\\_color-modes.test.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\mixins\\_media-query-color-mode-full.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\mixins\\_media-query-color-mode-full.test.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\mixins\\_utilities.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\mixins\\_utilities.test.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\sass-true\\register.js",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\sass-true\\register.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\sass-true\\runner.js",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\sass-true\\runner.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\utilities\\_api.test.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\tests\\utilities\\_api.test.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\cards\\card-carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\cards\\card-carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_virtual-reality.scss"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\0.jpg",
+      "PackagePath": "staticwebassets\\images\\0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\1.jpeg",
+      "PackagePath": "staticwebassets\\images\\1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\106.jpg",
+      "PackagePath": "staticwebassets\\images\\106.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\16.jpg",
+      "PackagePath": "staticwebassets\\images\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\17.jpg",
+      "PackagePath": "staticwebassets\\images\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\18.jpg",
+      "PackagePath": "staticwebassets\\images\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\21.jpg",
+      "PackagePath": "staticwebassets\\images\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\222.png",
+      "PackagePath": "staticwebassets\\images\\222.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\24.jpg",
+      "PackagePath": "staticwebassets\\images\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\31.jpg",
+      "PackagePath": "staticwebassets\\images\\31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\32.jpg",
+      "PackagePath": "staticwebassets\\images\\32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\32h.jpg",
+      "PackagePath": "staticwebassets\\images\\32h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\333.png",
+      "PackagePath": "staticwebassets\\images\\333.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\43.jpg",
+      "PackagePath": "staticwebassets\\images\\43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\444.png",
+      "PackagePath": "staticwebassets\\images\\444.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\45.jpg",
+      "PackagePath": "staticwebassets\\images\\45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\6.jpeg",
+      "PackagePath": "staticwebassets\\images\\6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\Cookies and Cream Cupcakes.jpeg",
+      "PackagePath": "staticwebassets\\images\\Cookies and Cream Cupcakes.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\Facebook.jpg",
+      "PackagePath": "staticwebassets\\images\\Facebook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\Instagram.jpg",
+      "PackagePath": "staticwebassets\\images\\Instagram.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\LinkedIN.jpg",
+      "PackagePath": "staticwebassets\\images\\LinkedIN.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\Logo.png",
+      "PackagePath": "staticwebassets\\images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\Prue Leith's Sablé Breton - The Great British Bake Off (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\Prue Leith's Sablé Breton - The Great British Bake Off (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\Rasperry.jpeg",
+      "PackagePath": "staticwebassets\\images\\Rasperry.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\Roll.jpeg",
+      "PackagePath": "staticwebassets\\images\\Roll.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\Tiramisu Cupcakes - Julie Marie Eats.jpeg",
+      "PackagePath": "staticwebassets\\images\\Tiramisu Cupcakes - Julie Marie Eats.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\Tiramisu.jpeg",
+      "PackagePath": "staticwebassets\\images\\Tiramisu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\X.jpg",
+      "PackagePath": "staticwebassets\\images\\X.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\a4d3143c-9042-4de0-84ab-1e5baa26e5a0.jpeg",
+      "PackagePath": "staticwebassets\\images\\a4d3143c-9042-4de0-84ab-1e5baa26e5a0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\ab9e5f86-c088-4701-a0d0-bc8cbaa54b6a.jpeg",
+      "PackagePath": "staticwebassets\\images\\ab9e5f86-c088-4701-a0d0-bc8cbaa54b6a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\avril.jpg",
+      "PackagePath": "staticwebassets\\images\\avril.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\baba.jpg",
+      "PackagePath": "staticwebassets\\images\\baba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\bday.jpg",
+      "PackagePath": "staticwebassets\\images\\bday.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\choc.jpeg",
+      "PackagePath": "staticwebassets\\images\\choc.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\croissant.jpeg",
+      "PackagePath": "staticwebassets\\images\\croissant.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\dada.jpg",
+      "PackagePath": "staticwebassets\\images\\dada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\dimanche.jpg",
+      "PackagePath": "staticwebassets\\images\\dimanche.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\fafa.jpg",
+      "PackagePath": "staticwebassets\\images\\fafa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\fecf7f2c-7ea4-4218-943a-4aa52540fe41.jpeg",
+      "PackagePath": "staticwebassets\\images\\fecf7f2c-7ea4-4218-943a-4aa52540fe41.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\fevrier.jpg",
+      "PackagePath": "staticwebassets\\images\\fevrier.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\ff3c7b95-5848-48ca-94c9-2dae1dd1566d.jpeg",
+      "PackagePath": "staticwebassets\\images\\ff3c7b95-5848-48ca-94c9-2dae1dd1566d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\gaga.jpg",
+      "PackagePath": "staticwebassets\\images\\gaga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\haha.jpg",
+      "PackagePath": "staticwebassets\\images\\haha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\janvier.jpg",
+      "PackagePath": "staticwebassets\\images\\janvier.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\jeudi.jpg",
+      "PackagePath": "staticwebassets\\images\\jeudi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\lala.jpg",
+      "PackagePath": "staticwebassets\\images\\lala.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\login.jpg",
+      "PackagePath": "staticwebassets\\images\\login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\lundi.jpg",
+      "PackagePath": "staticwebassets\\images\\lundi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\m.jpg",
+      "PackagePath": "staticwebassets\\images\\m.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\mai.jpg",
+      "PackagePath": "staticwebassets\\images\\mai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\mama.jpg",
+      "PackagePath": "staticwebassets\\images\\mama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\mana.jpg",
+      "PackagePath": "staticwebassets\\images\\mana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\mardi.jpg",
+      "PackagePath": "staticwebassets\\images\\mardi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\mars.jpg",
+      "PackagePath": "staticwebassets\\images\\mars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\matcha.jpeg",
+      "PackagePath": "staticwebassets\\images\\matcha.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\mercredi.jpg",
+      "PackagePath": "staticwebassets\\images\\mercredi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\monday.jpg",
+      "PackagePath": "staticwebassets\\images\\monday.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\mousse.jpg",
+      "PackagePath": "staticwebassets\\images\\mousse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\nana.jpg",
+      "PackagePath": "staticwebassets\\images\\nana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\pistache.jpeg",
+      "PackagePath": "staticwebassets\\images\\pistache.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\rara.jpg",
+      "PackagePath": "staticwebassets\\images\\rara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\samedi.jpg",
+      "PackagePath": "staticwebassets\\images\\samedi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\sasa.jpg",
+      "PackagePath": "staticwebassets\\images\\sasa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\signup.jpg",
+      "PackagePath": "staticwebassets\\images\\signup.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\tata.jpg",
+      "PackagePath": "staticwebassets\\images\\tata.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\tuesday.jpg",
+      "PackagePath": "staticwebassets\\images\\tuesday.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\vava.jpg",
+      "PackagePath": "staticwebassets\\images\\vava.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\vaya.jpg",
+      "PackagePath": "staticwebassets\\images\\vaya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\vendredi.jpg",
+      "PackagePath": "staticwebassets\\images\\vendredi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\wawa.jpg",
+      "PackagePath": "staticwebassets\\images\\wawa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\yaya.jpg",
+      "PackagePath": "staticwebassets\\images\\yaya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\images\\zaza.jpg",
+      "PackagePath": "staticwebassets\\images\\zaza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bassma.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bassma.props",
+      "PackagePath": "build\\Bassma.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bassma.props",
+      "PackagePath": "buildMultiTargeting\\Bassma.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bassma.props",
+      "PackagePath": "buildTransitive\\Bassma.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

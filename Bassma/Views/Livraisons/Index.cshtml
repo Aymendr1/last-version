@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Bassma.Models.Livraison>
+
+@{
+    ViewData["Title"] = "Tableau de Bord - Livraisons";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="livreur-dashboard">
+    <!-- Dashboard Title -->
+    <div class="dashboard-header text-center py-4" style="background-color: #42262A; color: white;">
+        <h1 class="mb-0">@ViewData["Title"]</h1>
+        <p style="font-weight: 400;">Gérez vos livraisons facilement et efficacement.</p>
+    </div>
+
+    <!-- Create Button -->
+    <div class="dashboard-actions text-center my-4">
+        <a asp-action="Create" class="btn btn-lg"
+           style="background-color: #5A3B36; color: white; border-radius: 25px; padding: 10px 40px; font-weight: bold;">
+            + Nouvelle Livraison
+        </a>
+    </div>
+
+    <!-- Livraisons Table -->
+    <div class="container">
+        <div class="card" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); border-radius: 15px;">
+            <div class="card-header text-white" style="background-color: #5A3B36; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                <h4 class="mb-0">Liste des Livraisons</h4>
+            </div>
+            <div class="table-responsive p-3">
+                <table class="table table-hover text-center" style="border-collapse: collapse;">
+                    <thead style="background-color: #42262A; color: white; font-weight: bold;">
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Date)</th>
+                            <th>@Html.DisplayNameFor(model => model.Status)</th>
+                            <th>@Html.DisplayNameFor(model => model.User)</th>
+                            <th>@Html.DisplayNameFor(model => model.Commande)</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.Any())
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr style="background-color: #f9f9f9;">
+                                    <td>@Html.DisplayFor(modelItem => item.Date)</td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Status)
+                                        @if (item.Status == "Pending")
+                                        {
+                                            <span class="badge" style="background-color: #FFC107; color: #333; font-weight: bold;">En Attente</span>
+                                        }
+                                        else if (item.Status == "Delivered")
+                                        {
+                                            <span class="badge" style="background-color: #28A745; color: white; font-weight: bold;">Livrée</span>
+                                        }
+                                        else if (item.Status == "In Progress")
+                                        {
+                                            <span class="badge" style="background-color: #17A2B8; color: white; font-weight: bold;">En Cours</span>
+                                        }
+                                    </td>
+                                    <td>@Html.DisplayFor(modelItem => item.User.Id)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Commande.Adresse)</td>
+                                    <td>
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm"
+                                           style="background-color: #FFC107; color: #333; font-weight: bold; border-radius: 15px;">
+                                            Modifier
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm"
+                                           style="background-color: #17A2B8; color: white; font-weight: bold; border-radius: 15px;">
+                                            Détails
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm"
+                                           style="background-color: #DC3545; color: white; font-weight: bold; border-radius: 15px;">
+                                            Supprimer
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="5" class="text-center" style="font-weight: bold; color: #666;">Aucune livraison disponible.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

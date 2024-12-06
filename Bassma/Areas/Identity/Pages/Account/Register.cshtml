@@ -1,0 +1,121 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<link rel="stylesheet" href="~/css/styles.css">
+
+<style>
+    .form-label {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+        color: #4a4a4a;
+    }
+
+    .form-control {
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #592f2b;
+            box-shadow: 0 0 5px rgba(89, 47, 43, 0.5);
+        }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px 20px; /* Added bottom padding */
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        padding-bottom: 0px;
+        /padding-bottom: 90px ;/
+    }
+
+    .signup-section {
+        margin-top: 0px; /* Pushes the content below the navbar */
+        padding-bottom: 40px; /* Adds padding to the bottom of the section */
+    }
+
+</style>
+<!-- Navbar Section -->
+<header>
+    <nav class="navbar">
+        <div class="nav-search">
+            <input type="text" class="search-input" placeholder="Search...">
+        </div>
+        <div class="nav-left">
+            <a href="/" class="nav-link">HOME</a>
+            <a href="/Catalog" class="nav-link">CATALOG</a>
+        </div>
+        <div class="nav-center">
+            <a href="/"><img src="~/images/logo.png" alt="Sweet Cravings Logo" class="logo"></a>
+        </div>
+        <div class="nav-right">
+            <a href="/Shop" class="nav-link">SHOP</a>
+            <a href="/#contact" class="nav-link">CONTACT</a>
+        </div>
+        <div class="nav-auth">
+            <a href="/Identity/Account/Register" class="btn-signup">SIGN UP</a>
+            <a href="/Identity/Account/Login" class="btn-login">LOGIN</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Sign Up Section -->
+<section class="signup-section">
+    <div class="signup-image-container">
+        <img src="~/images/mai.jpg" alt="Blueberry Cake" class="signup-image">
+    </div>
+
+    <div class="signup-form-container">
+        <h2>S'INSCRIRE</h2>
+
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+            <!-- Email -->
+            <label asp-for="Input.Email">Email</label>
+            <input asp-for="Input.Email" class="form-control" placeholder="Entrez votre email" />
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+
+            <!-- Password -->
+            <label asp-for="Input.Password">Mot de passe</label>
+            <input asp-for="Input.Password" type="password" class="form-control" placeholder="Entrez votre mot de passe" />
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+
+            <!-- Confirm Password -->
+            <label asp-for="Input.ConfirmPassword">Confirmation mot de passe</label>
+            <input asp-for="Input.ConfirmPassword" type="password" class="form-control" placeholder="Confirmez votre mot de passe" />
+            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+
+            <!-- Terms and Conditions -->
+            <div class="form-terms">
+                <input type="checkbox" id="terms" name="terms" />
+                <label for="terms">Accepter les termes et conditions</label>
+            </div>
+
+
+            <button id="registerSubmit" type="submit" class="btn-signup-submit">CREER UN COMPTE</button>
+
+            <!-- Already have an account -->
+            <p>Vous avez déjà un compte ? <a href="/Identity/Account/Login">Se connecter</a></p>
+        </form>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"   />
+}

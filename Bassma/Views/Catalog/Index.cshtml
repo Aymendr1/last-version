@@ -1,0 +1,250 @@
+﻿@{
+    ViewData["Title"] = "Catalog";
+}
+<!-- Link to Original Surfer font -->
+<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+
+<!-- Link to Oxygen font -->
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="~/css/styles.css">
+<!-- Navbar Section -->
+<header>
+    <nav class="navbar">
+        <!-- Search Icon (Top Left) -->
+        <div class="nav-search">
+            <input type="text" class="search-input" placeholder="Search...">
+        </div>
+
+
+        <!-- Left Section (Home, Catalog) -->
+        <div class="nav-left">
+            <a href="/" class="nav-link">HOME</a>
+            <a href="/Catalog" class="nav-link">CATALOG</a>
+        </div>
+
+        <!-- Center Logo -->
+        <div class="nav-center">
+            <a href="/"><img src="~/images/logo.png" alt="Sweet Cravings Logo" class="logo"></a>
+        </div>
+
+
+        <!-- Right Section (Shop, Contact) -->
+        <div class="nav-right">
+            <a href="/Shop" class="nav-link">SHOP</a>
+            <a href="/#contact" class="nav-link">CONTACT</a>
+        </div>
+
+        <!-- Auth Buttons (Sign Up, Login) -->
+        <div class="nav-auth">
+            <a href="/Identity/Account/Register" class="btn-signup">SIGN UP</a>
+            <a href="/Identity/Account/Login" class="btn-login">LOGIN</a>
+
+        </div>
+    </nav>
+</header>
+<section class="catalog-hero">
+    <div class="catalog-overlay">
+        <div class="catalog-content">
+            <h1 class="hero-title">Treat Yourself Today!</h1>
+            <p class="hero-subtitle">Discover Your Favorites!</p>
+            <a href="/Shop" class="btn-cta">Wanna Buy A Cake</a>
+        </div>
+    </div>
+</section>
+
+<!-- Colored Background Section -->
+<section class="colored-banner">
+    <div class="banner"></div>
+</section>
+
+<!-- Two-Column Layout Section -->
+<section class="two-column-layout">
+    <div class="left-large-card">
+        <img src="/images/croissant.jpeg" alt="Croissants" class="large-card-image">
+        <div class="card-overlay">
+            <h3>WE CREATE SWEET MEMORIES</h3>
+            <p>Freshly Baked Every Day Just for You</p>
+        </div>
+    </div>
+    <div class="right-small-cards">
+        <div class="small-card">
+            <img src="/images/m.jpg" alt="Donuts" class="small-card-image">
+            <div class="card-overlay">
+                <h3>Indulge in Sweet Delight</h3>
+                <p>Treat Yourself to Our Finest Creations !!</p>
+                <button class="btn-card">ORDER NOW</button>
+            </div>
+        </div>
+        <div class="small-card">
+            <img src="/images/3.jpg" alt="Cake" class="small-card-image">
+            <div class="card-overlay">
+                <h3>Experience Freshness</h3>
+                <p>Crispy, Flaky, and Perfectly Baked $$</p>
+                <button class="btn-card">GRAB A BITE</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- New Arrivals Section -->
+<section class="catalog-new-arrivals">
+    <!-- NEW ARRIVALS BOX -->
+    <div class="new-arrivals-box">
+        <div class="arrows">
+            <button class="arrow-btn">‹</button>
+            <button class="arrow-btn">›</button>
+        </div>
+        <h2>NEW ARRIVALS</h2>
+        <div class="view-all-products">
+            <span class="btn-view-products">VIEW ALL PRODUCTS</span>
+        </div>
+    </div>
+
+    <!-- PRODUCT GRID -->
+    <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="/images/444.png" alt="Strawberry Heaven Cupcakes" class="product-image">
+            <h3>Strawberry Heaven Cupcakes</h3>
+            <p>18 MAD</p>
+            <button class="btn-add-to-cart">ADD TO CART</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="/images/333.png" alt="Golden Mooncakes" class="product-image">
+            <h3>Golden Mooncakes</h3>
+            <p>16 MAD</p>
+            <button class="btn-add-to-cart">ADD TO CART</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="/images/222.png" alt="Berry Bliss Cake" class="product-image">
+            <h3>Berry Bliss Cake</h3>
+            <p>24 MAD</p>
+            <button class="btn-add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="full-width-image">
+    <img src="/images/43.jpg" alt="Macarons" class="wide-image">
+</section>
+
+
+<section class="product-gallery">
+    <div class="product-card">
+        <img src="/images/1.jpeg" alt="Pistachio Rose Cake" class="product-image">
+        <h3>Pistachio Rose Cake</h3>
+        <p>28 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/14.jpg" alt="Raspberry Swirl Croissant" class="product-image">
+        <h3>Raspberry Swirl Croissant</h3>
+        <p>16 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/32.jpg" alt="Classic Portuguese Egg Tarts" class="product-image">
+        <h3>Classic Portuguese Egg Tarts</h3>
+        <p>20 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/6.jpeg" alt="Almond Blossom Cheesecake" class="product-image">
+        <h3>Almond Blossom Cheesecake</h3>
+        <p>115 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+</section>
+
+<section class="product-gallery">
+    <div class="product-card">
+        <img src="/images/16.jpg" alt="Peach Blossom Delight" class="product-image">
+        <h3>Peach Blossom Delight</h3>
+        <p>26 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/matcha.jpeg" alt="Matcha Cherry Slice" class="product-image">
+        <h3>Matcha Cherry Slice</h3>
+        <p>24 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/Cookies and Cream Cupcakes.jpeg" alt="Cookies & Cream Cupcake" class="product-image">
+        <h3>Cookies & Cream Cupcake</h3>
+        <p>18 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/106.jpg" alt="Classic Tiramisu Slice" class="product-image">
+        <h3>Classic Tiramisu Slice</h3>
+        <p>32 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+</section>
+
+<section class="product-gallery">
+    <div class="product-card">
+        <img src="/images/mousse.jpg" alt="Strawberry Mousse Cake" class="product-image">
+        <h3>Strawberry Mousse Cake</h3>
+        <p>64 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/Rasperry.jpeg" alt="Raspberry Velvet Slice" class="product-image">
+        <h3>Raspberry Velvet Slice</h3>
+        <p>24 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/31.jpg" alt="Honey Glazed Brioche" class="product-image">
+        <h3>Honey Glazed Brioche</h3>
+        <p>12 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/24.jpg" alt="Cinnamon Swirl Roll" class="product-image">
+        <h3>Cinnamon Swirl Roll</h3>
+        <p>14 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+</section>
+
+<section class="product-gallery">
+    <div class="product-card">
+        <img src="/images/Roll.jpeg" alt="Strawberry Swiss Roll" class="product-image">
+        <h3>Strawberry Swiss Roll</h3>
+        <p>18 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/pistache.jpeg" alt="Pistachio Dome Delight" class="product-image">
+        <h3>Pistachio Dome Delighte</h3>
+        <p>25 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/choc.jpeg" alt="Chocolate Dipped Croissant" class="product-image">
+        <h3>Chocolate Dipped Croissant</h3>
+        <p>15 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+        <img src="/images/Tiramisu.jpeg" alt="Tiramisu Muffin" class="product-image">
+        <h3>Tiramisu Muffin</h3>
+        <p>22 MAD</p>
+        <button class="btn-add-to-cart">ADD TO CART</button>
+    </div>
+</section>
+
+
+

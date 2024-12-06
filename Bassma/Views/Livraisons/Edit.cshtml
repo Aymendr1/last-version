@@ -1,0 +1,57 @@
+﻿@model Bassma.Models.Livraison
+
+@{
+    ViewData["Title"] = "Modifier la Livraison";
+}
+
+<section class="edit-livraison-section">
+    <h1 class="text-center my-5" style="color: #42262A; font-weight: bold;">Modifier la Livraison</h1>
+
+    <div class="card mx-auto" style="max-width: 600px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 15px; border: none;">
+        <div class="card-body">
+            <h4 class="text-center mb-4" style="color: #5a3b36; font-weight: bold;">Informations de la Livraison</h4>
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group mb-4">
+                    <label asp-for="UserId" class="form-label" style="color: #42262A; font-weight: bold;">Utilisateur</label>
+                    <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId" style="border: 2px solid #ddd; border-radius: 5px;"></select>
+                    <span asp-validation-for="UserId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="CommandeId" class="form-label" style="color: #42262A; font-weight: bold;">Commande</label>
+                    <select asp-for="CommandeId" class="form-control" asp-items="ViewBag.CommandeId" style="border: 2px solid #ddd; border-radius: 5px;"></select>
+                    <span asp-validation-for="CommandeId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="Date" class="form-label" style="color: #42262A; font-weight: bold;">Date</label>
+                    <input asp-for="Date" class="form-control" style="border: 2px solid #ddd; border-radius: 5px;" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="Status" class="form-label" style="color: #42262A; font-weight: bold;">Statut</label>
+                    <input asp-for="Status" class="form-control" style="border: 2px solid #ddd; border-radius: 5px;" />
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success btn-lg" style="padding: 10px 40px; font-weight: bold; border-radius: 25px;">Enregistrer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-action="Index" class="btn btn-outline-secondary btn-lg" style="padding: 10px 40px; font-weight: bold; border-radius: 25px;">Retour à la Liste</a>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

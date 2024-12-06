@@ -1,0 +1,33 @@
+﻿@model Bassma.Models.Livraison
+
+@{
+    ViewData["Title"] = "Détails de la Livraison";
+}
+
+<section class="details-livraison-section">
+    <h1 class="text-center my-5" style="color: #42262A; font-weight: bold;">Détails de la Livraison</h1>
+
+    <div class="card mx-auto" style="max-width: 600px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 15px; border: none;">
+        <div class="card-body">
+            <h4 class="text-center mb-4" style="color: #5a3b36; font-weight: bold;">Informations sur la Livraison</h4>
+            <dl class="row">
+                <dt class="col-sm-4" style="color: #42262A; font-weight: bold;">Date</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Date)</dd>
+
+                <dt class="col-sm-4" style="color: #42262A; font-weight: bold;">Statut</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Status)</dd>
+
+                <dt class="col-sm-4" style="color: #42262A; font-weight: bold;">Utilisateur</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.User.Id)</dd>
+
+                <dt class="col-sm-4" style="color: #42262A; font-weight: bold;">Adresse de la Commande</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Commande.Adresse)</dd>
+            </dl>
+        </div>
+
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-lg btn-warning" style="padding: 10px 40px; font-weight: bold; border-radius: 25px;">Modifier</a>
+            <a asp-action="Index" class="btn btn-lg btn-outline-secondary" style="padding: 10px 40px; font-weight: bold; border-radius: 25px; margin-left: 10px;">Retour à la Liste</a>
+        </div>
+    </div>
+</section>

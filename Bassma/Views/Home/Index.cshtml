@@ -1,0 +1,152 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Google Fonts Link for Playfair Display SC -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet">
+<!-- Google Fonts Link for Poiret One -->
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="~/css/styles.css">
+
+
+
+<!-- Navbar Section -->
+<header>
+    <nav class="navbar">
+        <!-- Search Icon (Top Left) -->
+        <div class="nav-search">
+            <input type="text" class="search-input" placeholder="Search...">
+        </div>
+
+
+        <!-- Left Section (Home, Catalog) -->
+        <div class="nav-left">
+            <a href="/" class="nav-link">HOME</a>
+            <a href="/Catalog" class="nav-link">CATALOG</a>
+        </div>
+
+        <!-- Center Logo -->
+        <div class="nav-center">
+            <a href="/"><img src="~/images/logo.png" alt="Sweet Cravings Logo" class="logo"></a>
+        </div>
+
+
+        <!-- Right Section (Shop, Contact) -->
+        <div class="nav-right">
+            <a href="/Shop" class="nav-link">SHOP</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+
+        <!-- Auth Buttons (Sign Up, Login) -->
+        <div class="nav-auth">
+            <a href="/Identity/Account/Register" class="btn-signup">SIGN UP</a>
+            <a href="/Identity/Account/Login" class="btn-login">LOGIN</a>
+
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-overlay">
+        <h1>Welcome To Sweet Cravings</h1>
+        <p>Your Destination for Heavenly Treats!!</p>
+        <div class="hero-buttons">
+            <a href="/About" class="btn-our-story">OUR STORY</a>
+            <a href="/Order" class="btn-order-now">ORDER NOW</a>
+        </div>
+
+    </div>
+</section>
+<!-- Products Section -->
+<section class="products">
+    <div class="products-content">
+        <h2 class="products-title">The Sweet We Make</h2>
+        <p class="products-subtitle">At Sweet Cravings, every dessert tells a story, crafted with care and the finest ingredients to bring joy to your day.</p>
+        <p class="products-description">Whether it’s a celebratory cake or a simple croissant, we pour our passion into each bite.</p>
+    </div>
+
+    <!-- Category Buttons (Center Align) -->
+    <div class="category-buttons">
+        <button class="category-btn active">All</button>
+        <button class="category-btn">Cakes</button>
+        <button class="category-btn">Croissant</button>
+        <button class="category-btn">Cookies</button>
+        <button class="category-btn">Donuts</button>
+        <button class="category-btn">Macarons</button>
+    </div>
+
+    <!-- Product Image Section -->
+
+
+
+</section>
+<div class="products-image"></div>
+
+
+<section class="sweet-journey-section">
+    <!-- Image Container with Background -->
+    <div class="journey-image-container">
+        <div class="image-background"></div>
+        <img src="~/images/bday.jpg" alt="Birthday Cake" class="foreground-image">
+    </div>
+
+
+    <!-- Text Container -->
+    <div class="journey-text-container">
+        <div class="title-bar"></div>
+        <h2>THE SWEETEST JOURNEYS :</h2>
+        <h3>Celebrating Life’s Moments Through Flavor</h3>
+        <p>At Sweet Cravings, we believe that every confection tells a story.</p>
+        <p>Our treats are crafted to celebrate life’s sweetest moments, taking you on a flavorful journey that evokes cherished memories and creates new ones.</p>
+        <a href="#" class="btn-read-more">READ MORE</a>
+    </div>
+</section>
+
+<!-- Second Image Section -->
+<div class="fleet-image">
+    <img src="~/images/45.jpg" alt="Little Cakes">
+</div>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <!-- Localisation and Social Media Links -->
+        <div class="contact-left">
+            <h3>LOCALISATION</h3>
+            <p>28 Jackson Blvd Ste 1020 Chicago<br>IL 60604-2340</p>
+            <h3>FOLLOW US</h3>
+            <div class="social-links">
+                <a href="#"><img src="~/images/X.jpg" alt="X Icon"></a>
+                <a href="#"><img src="~/images/Facebook.jpg" alt="Facebook Icon"></a>
+                <a href="#"><img src="~/images/Instagram.jpg" alt="Instagram Icon"></a>
+                <a href="#"><img src="~/images/LinkedIN.jpg" alt="LinkedIn Icon"></a>
+            </div>
+            <p>© 2024 Sweet Cravings. All rights reserved</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-right">
+            <h3>CONTACT</h3>
+            <form asp-controller="Contact" asp-action="Submit" method="post">
+                <input type="text" name="Name" placeholder="Enter your name" required>
+                <input type="email" name="Email" placeholder="Enter a valid email address" required>
+                <textarea name="Message" placeholder="Enter your message" required></textarea>
+                <button type="submit">SEND</button>
+            </form>
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <p class="success-message">@TempData["SuccessMessage"]</p>
+            }
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <p class="error-message">@TempData["ErrorMessage"]</p>
+            }
+        </div>
+
+    </div>
+</section>

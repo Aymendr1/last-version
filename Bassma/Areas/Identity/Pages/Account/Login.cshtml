@@ -1,0 +1,139 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+@{
+    ViewData["Title"] = "Login";
+}
+<link rel="stylesheet" href="~/css/styles.css">
+<style>
+
+    .a{
+        margin-bottom : 0 ;
+    }
+    .form-label {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+        color: #4a4a4a;
+    }
+
+    .form-control {
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #592f2b;
+            box-shadow: 0 0 5px rgba(89, 47, 43, 0.5);
+        }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px 20px; /* Added bottom padding */
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        padding-bottom : 0px ;
+       
+    }
+
+    .login-section {
+        margin-top: 0px; /* Pushes the content below the navbar */
+        padding-bottom: 40px; /* Adds padding to the bottom of the section */
+    }
+
+   
+
+
+</style>
+
+
+<!-- Navbar Section (Reusing from Home Page) -->
+<header>
+    <nav class="navbar">
+        <div class="nav-search">
+            <input type="text" class="search-input" placeholder="Search...">
+        </div>
+        <div class="nav-left">
+            <a href="/" class="nav-link">HOME</a>
+            <a href="/Catalog" class="nav-link">CATALOG</a>
+        </div>
+        <!-- Center Logo -->
+        <div class="nav-center">
+            <a href="/"><img src="~/images/logo.png" alt="Sweet Cravings Logo" class="logo"></a>
+        </div>
+
+        <div class="nav-right">
+            <a href="/Shop" class="nav-link">SHOP</a>
+            <a href="/#contact" class="nav-link">CONTACT</a>
+        </div>
+        <div class="nav-auth">
+            <a href="/Identity/Account/Register" class="btn-signup">SIGN UP</a>
+            <a href="/Identity/Account/Login" class="btn-login">LOGIN</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Login Section -->
+<section class="login-section">
+    <div class="login-image-container">
+        <img src="~/images/login.jpg" alt="Donuts" class="login-image">
+    </div>
+    <div class="login-form-container">
+        <h2>SE CONNECTER</h2>
+        <form id="account" method="post">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="qhfhuqhf@example.com" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Mot de passe</label>
+                <input id="password" asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Entrer votre mot de passe" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+
+            @* <div class="checkbox mb-3">
+            <label asp-for="Input.RememberMe" class="form-label">
+            <input class="form-check-input" asp-for="Input.RememberMe" />
+            @Html.DisplayNameFor(m => m.Input.RememberMe)
+            </label>
+            </div> *@
+            <div>
+                <button id="login-submit" type="submit" class="btn-login-submit custom-btn"> SE CONNECTER </button>
+            </div>
+            
+        </form>
+
+        @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+        {
+            <div class="text-red-500 mt-4">@ViewBag.ErrorMessage</div>
+        }
+        <p class="a">Pas encore de compte ? <a href="/Identity/Account/Register">S'inscrire</a></p>
+        <p>
+            <a id="forgot-password" asp-page="./ForgotPassword">Mot de passe oublié ?</a>
+        </p>
+        <small>Si besoin d’aide, merci de vous référer au Centre d’Assistance ou de contacter notre service client.</small>
+    </div>
+</section>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"   />
+}

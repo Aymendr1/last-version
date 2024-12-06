@@ -1,0 +1,1393 @@
+﻿/* Reset Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding-top: 20px;
+}
+
+/* Search Icon */
+/* Search Input */
+/* Search Input */
+.nav-search {
+    flex: 0 0 auto;
+    padding-left: 10px; /* Adjust padding for positioning */
+}
+
+.search-input {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 2px solid #5a3b36; /* Dark border color */
+    border-radius: 20px; /* Rounded to look like a search icon */
+    outline: none;
+    width: 180px;
+    background-color: #fff; /* White background */
+    background-image: url('data:image/svg+xml,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" viewBox%3D"0 0 24 24" fill%3D"%235a3b36"%3E%3Cpath d%3D"M21 19l-5.5-5.5a7 7 0 10-1.5 1.5L19 21l2-2zm-6.5-7a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 35px; /* Space for the icon */
+}
+
+    .search-input::placeholder {
+        color: #5a3b36;
+        font-weight: bold;
+    }
+
+
+
+/* Navbar Links */
+.nav-left,
+.nav-right {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-left {
+    margin-right: auto;
+    padding-left: 180px;
+}
+
+.nav-right {
+    margin-left: auto;
+    padding-right: 200px;
+}
+
+/* Center Logo */
+.nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    padding-top: 9px;
+}
+
+/* Auth Buttons */
+.nav-auth {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-signup {
+    padding: 5px 15px;
+    background-color: #fff;
+    color: black;
+    border: 2px solid #333;
+    border-radius: 0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .btn-signup:hover {
+        color: white;
+        background-color: #42262A;
+    }
+
+.btn-login {
+    padding: 5px 15px;
+    background-color: #42262A;
+    color: #fff;
+    border-radius: 0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .btn-login:hover {
+        padding: 5px 15px;
+        background-color: #fff;
+        color: black;
+        border: 2px solid #333;
+        border-radius: 0;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+/* Hero Section */
+.hero {
+    margin-top: 80px;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+    /* Darker Background Image */
+    .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('/images/21.jpg') no-repeat center center/cover;
+        filter: brightness(38%); /* Darkens the image without affecting the text */
+        z-index: -1; /* Keeps the image behind the text */
+    }
+
+/* Hero Content */
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.hero h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 85px; /* Decrease font size slightly */
+    font-weight: bold;
+    color: #ffffff; /* Keep the text pure white */
+    padding-bottom: 20px;
+    white-space: nowrap; /* Prevent the text from breaking into multiple lines */
+}
+
+
+.hero p {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding-bottom: 25px; /* Pure white text */
+}
+
+
+
+
+/* Hero Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+}
+
+    /* "OUR STORY" Button */
+    .hero-buttons .btn-our-story {
+        padding: 5px 60px; /* Increased size */
+        background-color: #fff;
+        color: #300826;
+        border: 2px #333;
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-decoration: none;
+        border-radius: 0; /* Rectangular shape */
+        cursor: pointer;
+        transition: all 0.3s;
+        box-shadow: none;
+        text-shadow: none;
+    }
+
+        .hero-buttons .btn-our-story:hover {
+            background-color: rgb(182,187,0);
+            border: 2px solid #42262A;
+        }
+
+    /* "ORDER NOW" Button */
+    .hero-buttons .btn-order-now {
+        padding: 5px 60px; /* Increased size */
+        background-color: #42262A;
+        color: #fff;
+        border: 2px solid #fff;
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-decoration: none;
+        border-radius: 0; /* Rectangular shape */
+        cursor: pointer;
+        transition: all 0.3s;
+        text-shadow: none;
+    }
+
+        .hero-buttons .btn-order-now:hover {
+            background-color: rgb(182,187,0);
+            color: black;
+            border: 2px #333;
+            border-radius: 0;
+            font-weight: bold;
+            text-decoration: none;
+            text-shadow: none;
+        }
+
+
+/* Navbar Link Styles */
+.nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+    .nav-link:hover {
+        color: #5a3b36;
+    }
+
+/* Products Section */
+.products {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.products-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+.products-subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100; /* Lightest valid weight */
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.products-description {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100; /* Lightest valid weight */
+    font-size: 20px;
+    color: black;
+    margin-bottom: 60px;
+}
+
+/* Category Buttons */
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px; /* Increase spacing below */
+}
+
+.category-btn {
+    padding: 15px 30px; /* Increased button size */
+    font-size: 1.2rem; /* Larger font */
+    background-color: #BE8880;
+    color: #fff;
+    border: 1px solid #BE8880; /* Maintain border for consistency */
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+    .category-btn:first-child {
+        border-top-left-radius: 25px; /* Adjust rounded corners for larger size */
+        border-bottom-left-radius: 25px;
+    }
+
+    .category-btn:last-child {
+        border-top-right-radius: 25px; /* Adjust rounded corners for larger size */
+        border-bottom-right-radius: 25px;
+    }
+
+    .category-btn.active {
+        background-color: #BE8880;
+        color: #fff;
+    }
+
+    .category-btn:hover {
+        background-color: rgba(190, 136, 128, 0.7);
+        box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.6);
+        color: #fff;
+        transform: scale(1.1); /* Slightly larger zoom effect */
+    }
+
+.category-buttons .category-btn + .category-btn {
+    margin-left: -1px;
+}
+
+.category-btn:focus {
+    outline: none;
+}
+
+
+
+
+.products-image {
+    position: relative; /* Ensure proper placement */
+    width: 100vw; /* Ensure it covers the entire viewport width */
+    height: 297px; /* Keep the desired height */
+    background-image: url('/images/32h.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(40%);
+    margin: 0; /* Remove any default margin */
+    margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+/* Sweet Journey Section */
+.sweet-journey-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 60px;
+}
+
+/* Image Container */
+
+
+/* Image Container */
+.journey-image-container {
+    position: relative;
+    width: fit-content; /* Adjust container size to fit content */
+    margin: 20px auto; /* Center the container */
+}
+
+/* Background for the Image */
+.image-background {
+    position: absolute;
+    top: 20px; /* Slight vertical offset for shadow effect */
+    left: -20px; /* Shift background left */
+    width: calc(100% - 60px); /* Dynamic width slightly smaller than the image */
+    height: calc(100% - 10px); /* Dynamic height slightly smaller than the image */
+    background-color: #BE8880; /* Background color */
+    z-index: 1; /* Place it behind the image */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Foreground Image */
+.foreground-image {
+    position: relative;
+    z-index: 2; /* Place it above the background */
+    width: 460px; /* Set desired image size */
+    height: auto;
+    border-radius: 0; /* No rounded corners */
+    object-fit: cover; /* Maintain image proportions */
+}
+
+
+
+
+/* Text Container */
+.journey-text-container {
+    flex: 0 0 45%;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-bar {
+    width: 160px;
+    height: 14px;
+    background-color: #42262A;
+    margin-bottom: 25px;
+    margin-top: 45px;
+    padding: 4px;
+}
+
+.journey-text-container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: black;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.journey-text-container h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #BE8880;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.journey-text-container p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+/* Read More Button */
+.btn-read-more {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding: 12px 30px;
+    background-color: #42262A;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0; /* Rectangular button */
+    border: 2px solid #5a3b36;
+    margin-top: 30px;
+}
+
+    .btn-read-more:hover {
+        background-color: rgb(182,187,0);
+        color: black;
+        border: 2px #333;
+        border-radius: 0;
+        font-weight: bold;
+        text-decoration: none;
+        text-shadow: none;
+    }
+
+/* Last Image Section */
+.fleet-image {
+    width: 100vw; /* Make the image cover the entire viewport width */
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+    .fleet-image img {
+        width: 100%; /* Full width of the container */
+        max-height: 700px; /* Limit the height if necessary */
+        object-fit: cover; /* Ensure the image fills the space while maintaining aspect ratio */
+        padding-top: 130px;
+        padding-bottom: 160px;
+    }
+
+
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Left Side (Localisation & Social Media) */
+.contact-left {
+    flex: 0 0 40%;
+    text-align: left;
+    padding-top: 32px;
+}
+
+    .contact-left h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #000000;
+        margin-bottom: 10px;
+        padding-top: 15px;
+    }
+
+    .contact-left p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        0 font-size: 20px;
+        color: #605F5F;
+        margin-bottom: 20px;
+    }
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+    .social-links a img {
+        width: 24px;
+        height: 24px;
+    }
+
+/* Right Side (Contact Form) */
+.contact-right {
+    flex: 0 0 50%;
+}
+
+    .contact-right h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        font-size: 43px;
+        color: #42262A;
+        margin-bottom: 15px;
+    }
+
+    .contact-right form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-right input,
+    .contact-right textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        background-color: #f9f9f9;
+    }
+
+    .contact-right textarea {
+        resize: none;
+        height: 120px;
+    }
+
+    .contact-right button {
+        padding: 10px 20px;
+        background-color: #42262A;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .contact-right button:hover {
+            padding: 5px 15px;
+            background-color: #fff;
+            color: black;
+            border: 2px solid #333;
+            border-radius: 0;
+            font-weight: bold;
+            text-decoration: none;
+                    
+        }
+
+/* Login Form Container */
+.login-form-container {
+    flex: 0 0 45%; /* Form covers the remaining 45% */
+    max-width: 450px;
+    margin-right: 190px; /* Adjust margin */
+    margin-left: -30% ;
+    text-align: left; /* Align content to the left */
+}
+
+/* Login Section Styles */
+.login-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px; /* Adjust for navbar */
+    height: 100vh;
+}
+
+/* Image Container */
+.login-image-container {
+    flex: 0 0 55%; /* Image covers 55% of the screen width */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden;
+    margin-left : 150px ;
+}
+
+/* Updated Image Styling */
+.login-image {
+    width: 600px; /* Increase the width */
+    height: 93vh; /* Maintain the height as a percentage of viewport height */
+    margin-left : -20% ;
+    object-position: center; /* Centers the image horizontally */
+    margin: 0 auto; /* Center the image container */
+    border-radius: 0px;
+    padding-top: 50px;
+}
+
+
+
+
+.login-form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 70px;
+    color: black; /* Use dark brown color */
+    font-weight: bold;
+}
+
+.login-form-container label {
+    display: block;
+    margin-bottom: 10px; /* Increase space between labels and inputs */
+    font-weight: bold;
+    font-size: 1.1rem; /* Increase font size */
+}
+
+.login-form-container input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px; /* Increase space between inputs */
+    border: 2px solid rgb(251, 248, 248);
+    border-radius: 0px;
+    font-size: 1.1rem; /* Increase font size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+    .login-form-container input:focus {
+        outline: none;
+        border-color: #5a3b36; /* Focus color */
+    }
+
+.btn-login-submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #42262A;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: 1.2rem; /* Increase font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; /* Increase space below the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    font-weight: bold ;
+}
+
+    .btn-login-submit:hover {
+        background-color: rgb(182,187,0); /* Lighter brown on hover */
+    }
+
+.login-form-container p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.login-form-container a {
+    color: #5a3b36; /* Dark brown for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-form-container small {
+    display: block;
+    margin-top: 35px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+
+/* Adjusting Navbar Margin */
+.signup-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px; /* Adjust for navbar */
+    height: 100vh;
+}
+
+/* Image Container */
+.signup-image-container {
+    flex: 0 0 55%; /* Image covers 55% of the screen width */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden;
+    margin-left: 150px;
+}
+
+/* Image Styling */
+.signup-image {
+    width: 600px; /* Increase the width */
+    height: 93vh; /* Maintain the height as a percentage of viewport height */
+    margin-left: -20%;
+    object-position: center; /* Centers the image horizontally */
+    margin: 0 auto; /* Center the image container */
+    border-radius: 0px;
+    padding-top: 50px;
+}
+
+/* Form Container */
+.signup-form-container {
+    flex: 0 0 45%; /* Form covers the remaining 45% */
+    max-width: 450px;
+    margin-right: 190px; /* Adjust margin */
+    margin-left: -30%;
+    text-align: left; /* Align content to the left */
+    margin-top: 47px;
+}
+
+    /* Form Heading */
+    .signup-form-container h2 {
+        font-size: 2rem;
+        margin-bottom: 65px;
+        color: black; /* Use dark brown color */
+        font-weight: bold;
+    }
+
+    /* Form Labels */
+    .signup-form-container label {
+        display: block;
+        margin-bottom: 10px; /* Increase space between labels and inputs */
+        font-weight: bold;
+        font-size: 1.1rem; /* Increase font size */
+    }
+
+    /* Form Inputs */
+    .signup-form-container input {
+        width: 100%;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 20px; /* Increase space between inputs */
+        border: 2px solid rgb(251, 248, 248);
+        border-radius: 0px;
+        font-size: 1.1rem; /* Increase font size */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    }
+
+        .signup-form-container input:focus {
+            outline: none;
+            border-color: #5a3b36; /* Focus color */
+        }
+
+/* Terms and Conditions */
+.form-terms {
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+    .form-terms label {
+        margin-left: 5px;
+        font-size: 0.9rem;
+        color: #555;
+    }
+
+/* Custom checkbox size */
+input[type="checkbox"] {
+    width: 15px; /* Adjust the width */
+    height: 15px; /* Adjust the height */
+    margin-right: 10px; /* Add space between the checkbox and label */
+    cursor: pointer; /* Add a pointer cursor for better user experience */
+}
+
+
+/* Button */
+.btn-signup-submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #42262A;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: 1.2rem; /* Increase font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; /* Increase space below the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    font-weight: bold ;
+}
+
+    .btn-signup-submit:hover {
+        background-color: rgb(182,187,0); /* Lighter brown on hover */
+    }
+
+/* Already have an account */
+.signup-form-container p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+    .signup-form-container p a {
+        color: #5a3b36;
+        text-decoration: none;
+        font-weight: bold ;
+    }
+
+
+/* Catalog Hero Section */
+.catalog-hero {
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    height: 90vh; /* Full viewport height */
+    background: url('/images/5.jpg') no-repeat center center; /* Center image */
+    background-size: cover; /* Ensure image covers the full width and height */
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Vertically center the content */
+    text-align: left;
+    margin-top: 90px;
+}
+
+/* Overlay for Darkening the Background */
+.catalog-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75); /* Dark overlay */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px; /* Add padding around the content */
+}
+
+/* Content inside the Hero Section */
+.catalog-content {
+    color: #fff;
+    padding: 20px;
+    max-width: 700px; /* Restrict width of the content */
+    padding-top: 150px; /* Space from the top */
+}
+
+/* Hero Title */
+.hero-title {
+    font-family: 'Playfair Display SC', serif; /* Use Playfair Display SC font */
+    font-size: 4rem; /* Large font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Hero Subtitle */
+.hero-subtitle {
+    font-family: 'Poiret One', cursive; /* Use Poiret One font */
+    font-size: 1.5rem; /* Adjust font size */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Call-to-Action Button */
+.btn-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fff; /* White background */
+    color: #42262A; /* Figma color */
+    border: 2px solid #42262A;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+    .btn-cta:hover {
+        background-color: #42262A; /* Swap colors on hover */
+        color: #fff;
+    }
+
+
+/* Colored Background */
+.colored-banner .banner {
+    height: 40px;
+    width: 100%;
+    background-color: #BE8880;
+}
+
+
+/* Two-Column Layout Section */
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 50px; /* Adds padding around the layout */
+}
+
+/* Left Large Card */
+.left-large-card {
+    flex: 2; /* 40% of the width */
+    position: relative;
+    height: 620px; /* Taller height for the large image */
+    overflow: hidden;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+.large-card-image {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%); /* Darker image effect */
+}
+
+.card-overlay {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+/* Overlay Text for Left Large Card */
+.left-large-card .card-overlay h3 {
+    font-family: 'Original Surfer'; /* Use Original Surfer font */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; /* Center the text */
+    line-height: 1.3;
+    white-space: nowrap; /* Keep text in one line */
+    padding-left: 40px;
+}
+
+.left-large-card .card-overlay p {
+    font-family: 'Oxygen', sans-serif; /* Use Oxygen font */
+    font-size: 1rem;
+    font-weight: 300; /* Light weight */
+    text-align: center; /* Center the text */
+    margin-bottom: 10px;
+}
+
+/* Right Small Cards */
+.right-small-cards {
+    flex: 3; /* 60% of the width */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+    padding-right: 60px;
+}
+
+.small-card {
+    flex: 2; /* Each small card gets equal height */
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.small-card-image {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    filter: brightness(50%); /* Darker image effect */
+    height: 280px;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+/* Overlay Text for Right Small Cards */
+.right-small-cards .small-card .card-overlay h3 {
+    font-family: 'Oxygen', sans-serif; /* Use Oxygen font */
+    font-size: 1.2rem;
+    font-weight: 700; /* Bold weight */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.right-small-cards .small-card .card-overlay p {
+    font-family: 'Oxygen', sans-serif; /* Use Oxygen font */
+    font-size: 1rem;
+    font-weight: 300; /* Light weight */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 11px;
+}
+
+.btn-card {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ffffff; /* White background */
+    color: #42262A; /* Dark text color */
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    .btn-card:hover {
+        background-color: #42262A;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+    }
+
+
+
+
+/* New Arrivals Section Container */
+.catalog-new-arrivals {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px; /* Spacing between NEW ARRIVALS and product grid */
+    padding: 40px 50px;
+    background-color: #ffffff; /* Clean background */
+}
+
+/* NEW ARRIVALS Box */
+.new-arrivals-box {
+    width: 10%; /* Reduce width to make the box smaller */
+    padding: 15px; /* Adjust padding if necessary */
+    background-color: #f5f0ee;
+    border: 1px solid #42262A; /* Updated border color */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    flex: 1; /* Occupies 25% of the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+    .new-arrivals-box h2 {
+        font-size: 2rem;
+        font-family: 'Playfair Display SC', serif;
+        color: #42262A;
+        margin: 0;
+        padding-top: 100px;
+    }
+
+    .new-arrivals-box .arrows {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        position: absolute;
+        top: 10px; /* Align arrows at the top middle */
+        width: 100%;
+    }
+
+.arrow-btn {
+    background-color: transparent;
+    border: 1px solid #42262A; /* Updated arrow border color */
+    color: #42262A; /* Updated arrow color */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+    .arrow-btn:hover {
+        background-color: #42262A;
+        color: #fff;
+    }
+
+/* VIEW ALL PRODUCTS Section */
+.view-all-products {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #42262A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px; /* Align at the bottom middle */
+    width: 100%;
+}
+
+    .view-all-products::before,
+    .view-all-products::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background-color: #42262A; /* Updated line color */
+    }
+
+.btn-view-products {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    gap: 20px;
+    flex: 3; /* Occupies 75% of the container */
+}
+
+/* Product Card */
+.product-card {
+    flex: 1; /* Equal width for all product cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; /* Align content to the left */
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 195px; /* Increased height for full image display */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Product Info */
+.product-card h3 {
+    font-size: 1rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color: #42262A;
+}
+
+.product-card p {
+    font-size: 1rem;
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    color: #42262A;
+}
+
+/* Add to Cart Button */
+.btn-add-to-cart {
+    width: 100%; /* Match button to card width */
+    padding: 10px;
+    font-size: 0.9rem;
+    background-color: #42262A;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+    .btn-add-to-cart:hover {
+        background-color: #5a3b36;
+    }
+
+
+/* Full-width Image Section */
+.full-width-image {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.wide-image {
+    width: 100%;
+    height: 374px; /* Match the height of the image in the screenshot */
+    object-fit: cover; /* Ensure the image scales and maintains its aspect ratio */
+    display: block;
+}
+
+
+/* Product Gallery Section */
+.product-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 50px;
+}
+
+.product-card {
+    text-align: left; /* Align text to the left */
+    width: 23%; /* Ensure all cards are equal width */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 249px; /* Fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #42262A; /* Text color */
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: #42262A;
+    margin-bottom: 10px;
+}
+
+.btn-add-to-cart {
+    width: 100%; /* Same width as the product image */
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font */
+    color: #fff;
+    background-color: #42262A;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+    .btn-add-to-cart:hover {
+        background-color: #5a3b36;
+    }
+
+
+
+/* Cart Page Styles */
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+    .cart-item img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+.cart-item-details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.cart-item-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .remove-btn:hover {
+        background-color: #c0392b;
+    }
+
+.payment-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.clear-cart-btn {
+    background-color: #42262A;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    align-self:  flex-start;
+}
+
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
