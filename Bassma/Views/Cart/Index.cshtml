@@ -146,7 +146,7 @@
         <div class="cart-summary">
             <h3 style="color: rgb(66, 38, 42); font-weight: bold; margin-bottom: 30px;">Résumé du Panier</h3>
             <div class="table-responsive">
-                <table class="table text-center" style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                <table class="table text-center" style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);"  id="cart-table">
                     <thead style="background-color: rgb(66, 38, 42); color: white;">
                         <tr>
                             <th style="padding: 15px;">Produit</th>
@@ -167,7 +167,28 @@
             </div>
         </div>
     </div>
+    <form action="/Commandes/Create" method="post" onsubmit="submitCart()">
+        @using (Html.BeginForm("Create", "Commandes", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <input type="hidden" id="cart" name="cart" value="" />
+            <input type="hidden" id="total" name="total" value="">
+           // <input type="text" name="adresse"/>
+            <button type="submit" class="btn add-to-cart" style="background-color: rgb(66, 38, 42); color: white; border-radius: 25px; padding: 10px 20px;">
+                Commander
+            </button>
+        }
+    </form>
 </section>
+
+<script>
+    function submitCart() {
+        const cartData = JSON.parse(localStorage.getItem('cart')) || [];
+        document.getElementById('cart').value = JSON.stringify(cartData);
+        document.getElementById('total').value = document.getElementById('cart-total').textContent;
+    }
+
+</script>
 
 <script src="/js/cart.js"></script>
 

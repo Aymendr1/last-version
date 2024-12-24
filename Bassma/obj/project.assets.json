@@ -8324,23 +8324,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aymen\\.nuget\\packages\\": {},
+    "C:\\Users\\testme\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Bassma.csproj",
+      "projectUniqueName": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Bassma.csproj",
       "projectName": "Bassma",
-      "projectPath": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\Bassma.csproj",
-      "packagesPath": "C:\\Users\\aymen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aymen\\OneDrive\\Desktop\\last-version\\Bassma\\obj\\",
+      "projectPath": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Bassma.csproj",
+      "packagesPath": "C:\\Users\\testme\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\aymen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\testme\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8349,7 +8349,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8366,8 +8365,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -8423,8 +8423,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 7.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
