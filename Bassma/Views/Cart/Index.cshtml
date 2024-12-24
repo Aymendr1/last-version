@@ -143,7 +143,13 @@
         </div>
 
         <!-- Cart Summary Section -->
-        <div class="cart-summary">
+        <div class="cart-summary" id="Panier">
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
             <h3 style="color: rgb(66, 38, 42); font-weight: bold; margin-bottom: 30px;">Résumé du Panier</h3>
             <div class="table-responsive">
                 <table class="table text-center" style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);"  id="cart-table">

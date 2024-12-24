@@ -107,8 +107,8 @@ namespace Bassma.Controllers
 
 
 
-            return Content("ok");
-
+            TempData["SuccessMessage"] = "Commande ajoutée avec succès!";
+            return Redirect("/Cart#Panier");
             //ayman dir hna return Redirect( hna ktab lview)  
 
 
