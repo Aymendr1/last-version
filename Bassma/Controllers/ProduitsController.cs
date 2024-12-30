@@ -56,18 +56,18 @@ namespace Bassma.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nom,Description,Prix,UserId")] Produit produit)
         {
-            
-            
-                _context.Add(produit);
-                await _context.SaveChangesAsync();
 
-			return View(produit);
-			//return RedirectToAction("Index", "Produits");
 
-		}
+            _context.Add(produit);
+            await _context.SaveChangesAsync();
 
-		// GET: Produits/Edit/5
-		public async Task<IActionResult> Edit(int? id)
+            return View(produit);
+            //return RedirectToAction("Index", "Produits");
+
+        }
+
+        // GET: Produits/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
@@ -94,25 +94,25 @@ namespace Bassma.Controllers
                 return NotFound();
             }
 
-           
-                try
+
+            try
+            {
+                _context.Update(produit);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ProduitExists(produit.Id))
                 {
-                    _context.Update(produit);
-                    await _context.SaveChangesAsync();
+                    return NotFound();
                 }
-                catch (DbUpdateConcurrencyException)
+                else
                 {
-                    if (!ProduitExists(produit.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    throw;
                 }
-               
-            
+            }
+
+
             return View(produit);
         }
 

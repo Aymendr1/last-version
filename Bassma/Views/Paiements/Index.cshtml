@@ -1,41 +1,58 @@
 ﻿@model IEnumerable<Bassma.Models.Paiement>
 
-@{
-    ViewData["Title"] = "Index";
-}
+<div class="header">
+    <h1>Gestion des Paiements</h1>
+    <p class="text-muted">Liste des paiements et leurs détails associés.</p>
+</div>
 
-<h1>Index</h1>
+<div class="d-flex justify-content-between align-items-center mt-4">
+    <h3>Liste des Paiements</h3>
+    <a href="/Paiements/Create" class="btn btn-success">Ajouter un Paiement</a>
+</div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
+<table class="table mt-4">
+    <thead style="background-color: rgb(66, 38, 42); color: white;">
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Commande)
-            </th>
-            <th></th>
+            <th>ID Paiement</th>
+            <th>ID Commande</th>
+            <th>Status</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Commande.Adresse)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var paiement in Model)
+            {
+                <tr>
+                    <!-- Paiement ID -->
+                    <td>@paiement.Id</td>
+
+                    <!-- Commande ID -->
+                    <td>@paiement.CommandeId</td>
+
+                    <!-- Status -->
+                    <td>@paiement.Status</td>
+
+                    <!-- Actions -->
+                    <td>
+                        <a href="/Paiements/Edit/@paiement.Id" class="btn btn-warning btn-sm">Modifier</a>
+                        <a href="/Paiements/Details/@paiement.Id" class="btn btn-info btn-sm">Détails</a>
+                        <a href="/Paiements/Delete/@paiement.Id" class="btn btn-danger btn-sm"
+                           onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce paiement ?');">
+                            Supprimer
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4" class="text-center text-muted" style="padding: 15px; font-style: italic;">
+                    Aucun paiement disponible pour le moment.
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

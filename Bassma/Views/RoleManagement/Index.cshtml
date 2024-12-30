@@ -5,42 +5,42 @@
 }
 
 <main class="main-content position-relative border-radius-lg ">
-<h1>Role Management</h1>
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>Email</th>
-            <th>Current Role</th>
-            <th>Assign Role</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var user in Model)
-        {
+    <h1>Role Management</h1>
+    <table class="table table-bordered">
+        <thead>
             <tr>
-                <td>@user.Email</td>
-                <td>@user.Role</td>
-                <td>
-                    <form asp-action="AssignRole" method="post">
-                        <input type="hidden" name="userId" value="@user.Id" />
-                        <select name="role" class="form-control">
-                            @foreach (var role in new[] { "User", "Admin", "Livreur" })
-                            {
-                                if (role == user.Role)
-                                {
-                                    <option value="@role" selected>@role</option>
-                                }
-                                else
-                                {
-                                    <option value="@role">@role</option>
-                                }
-                            }
-                        </select>
-                        <button type="submit" class="btn btn-primary mt-1">Assign</button>
-                    </form>
-                </td>
+                <th>Email</th>
+                <th>Current Role</th>
+                <th>Assign Role</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Email</td>
+                    <td>@user.Role</td>
+                    <td>
+                        <form asp-action="AssignRole" method="post">
+                            <input type="hidden" name="userId" value="@user.Id" />
+                            <select name="role" class="form-control">
+                                @foreach (var role in new[] { "User", "Admin", "Livreur" })
+                                {
+                                    if (role == user.Role)
+                                    {
+                                        <option value="@role" selected>@role</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@role">@role</option>
+                                    }
+                                }
+                            </select>
+                            <button type="submit" class="btn btn-primary mt-1">Assign</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </main>

@@ -1,65 +1,102 @@
 ﻿@model IEnumerable<Bassma.Models.Produit>
 
-@{
-    Layout = "~/Views/Shared/_LayoutDash.cshtml";
-}
-
-<div class="main-content position-relative border-radius-lg">
+<div class="container mt-5">
     <!-- Header Section -->
+    <div class="text-center mb-4">
+        <h1 style="color: rgb(66, 38, 42); font-family: 'Poppins', sans-serif; font-weight: 700;">
+            Produits Disponibles
+        </h1>
+        <p style="color: rgb(120, 120, 120); font-family: 'Poppins', sans-serif; font-size: 1.2rem;">
+            Découvrez les produits disponibles et leurs détails.
+        </p>
+    </div>
+
+    <!-- Button Section -->
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h1 class="text-end">Index des Produits</h1>
-        <a asp-action="Create" class="btn btn-primary">Créer Nouveau Produit</a>
+        <h3 style="color: rgb(66, 38, 42); font-family: 'Poppins', sans-serif;">Liste des Produits</h3>
+        <a href="/Produits/Create" class="btn"
+           style="background-color: rgb(182, 187, 0); color: white; font-family: 'Poppins', sans-serif; font-weight: 600; padding: 10px 20px; border-radius: 30px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+            + Créer Nouveau Produit
+        </a>
     </div>
 
-    <!-- Table Section -->
-    <div class="card shadow">
-        <div class="card-header bg-gradient-primary text-white">
-            <h5 class="mb-0">Liste des Produits</h5>
-        </div>
-        <div class="table-responsive">
-            <table class="table table-hover align-items-center mb-0">
-                <thead class="thead-light">
-                    <tr>
-                        <th>Image</th>
-                        <th>@Html.DisplayNameFor(model => model.Nom)</th>
-                        <th>@Html.DisplayNameFor(model => model.Description)</th>
-                        <th>@Html.DisplayNameFor(model => model.Prix)</th>
-                        <th>@Html.DisplayNameFor(model => model.UserId)</th>
-                        <th class="text-center">Actions</th>
+    <!-- Product Table -->
+    <table class="table table-bordered mt-4" style="font-family: 'Poppins', sans-serif; background-color: #fff; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden;">
+        <thead style="background-color: rgb(66, 38, 42); color: white; text-align: center;">
+            <tr>
+                <th style="padding: 20px;">Image</th>
+                <th style="padding: 20px;">Nom</th>
+                <th style="padding: 20px;">Description</th>
+                <th style="padding: 20px;">Prix (MAD)</th>
+                <th style="padding: 20px;">Utilisateur</th>
+                <th style="padding: 20px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var produit in Model)
+                {
+                    <tr style="text-align: center; transition: background-color 0.3s;">
+                        <!-- Product Image -->
+                        <td>
+                            @if (!string.IsNullOrEmpty(produit.ImagePath))
+                            {
+                                <img src="@produit.ImagePath" alt="@produit.Nom"
+                                     style="width: 100px; height: 100px; object-fit: cover; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);" />
+                            }
+                            else
+                            {
+                                <span class="text-muted">Pas d'image</span>
+                            }
+                        </td>
+
+                        <!-- Product Details -->
+                        <td style="color: rgb(66, 38, 42); font-weight: 600;">@produit.Nom</td>
+                        <td style="color: rgb(66, 38, 42);">@produit.Description</td>
+                        <td style="color: rgb(66, 38, 42); font-weight: bold;">@produit.Prix MAD</td>
+
+                        <!-- User -->
+                        <td style="color: rgb(66, 38, 42);">
+                            @if (produit.User != null)
+                            {
+                                @produit.User.UserName
+                            }
+                            else
+                            {
+                                <span class="text-muted">Non assigné</span>
+                            }
+                        </td>
+
+                        <!-- Actions -->
+                        <td>
+                            <div class="d-flex justify-content-center gap-2">
+                                <a href="/Produits/Edit/@produit.Id" class="btn btn-sm"
+                                   style="background-color: rgb(66, 38, 42); color: white; font-family: 'Poppins', sans-serif; font-weight: 600; border-radius: 25px; padding: 5px 15px; transition: all 0.3s;">
+                                    Modifier
+                                </a>
+                                <a href="/Produits/Details/@produit.Id" class="btn btn-sm"
+                                   style="background-color: rgb(182, 187, 0); color: white; font-family: 'Poppins', sans-serif; font-weight: 600; border-radius: 25px; padding: 5px 15px; transition: all 0.3s;">
+                                    Détails
+                                </a>
+                                <a href="/Produits/Delete/@produit.Id" class="btn btn-sm"
+                                   style="background-color: rgb(205, 92, 92); color: white; font-family: 'Poppins', sans-serif; font-weight: 600; border-radius: 25px; padding: 5px 15px; transition: all 0.3s;"
+                                   onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce produit ?');">
+                                    Supprimer
+                                </a>
+                            </div>
+                        </td>
                     </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-                            <!-- Image Column -->
-                            <td>
-                                @if (!string.IsNullOrEmpty(item.ImagePath))
-                                {
-                                    <img src="@item.ImagePath" alt="@item.Nom" style="width: 80px; height: 80px; object-fit: cover; border-radius: 5px;" />
-                                }
-                                else
-                                {
-                                    <span class="text-muted">No Image</span>
-                                }
-                            </td>
-
-                            <!-- Other Product Details -->
-                            <td>@Html.DisplayFor(modelItem => item.Nom)</td>
-                            <td>@Html.DisplayFor(modelItem => item.Description)</td>
-                            <td>@Html.DisplayFor(modelItem => item.Prix)</td>
-                            <td>@Html.DisplayFor(modelItem => item.UserId)</td>
-
-                            <!-- Actions -->
-                            <td class="text-center">
-                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Modifier</a>
-                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Détails</a>
-                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Supprimer</a>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-    </div>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6" class="text-center text-muted" style="padding: 30px; font-style: italic;">
+                        Aucun produit disponible pour le moment.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>

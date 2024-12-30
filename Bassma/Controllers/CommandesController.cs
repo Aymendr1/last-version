@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Bassma.Data;
 using Bassma.Models;
+using System.Text.Json.Nodes;
 
 namespace Bassma.Controllers
 {
@@ -54,15 +55,60 @@ namespace Bassma.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Total,UserId,Adresse")] Commande commande)
+        public async Task<IActionResult> Create(Commande commande)
         {
-            
-            
-                _context.Add(commande);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            
-            return View(commande);
+            // Commande 
+            string totalValue = Request.Form["total"];
+            var nouvelleCommande = new Commande
+            {
+                // id de l'utilisateur connecté
+                UserId = 1,
+                Total = decimal.Parse(totalValue),
+                ///Request.Form["adresse"];
+                Adresse = "En attente",
+            };
+
+            _context.Commandes.Add(nouvelleCommande);
+            _context.SaveChanges();
+
+            //ProduitCommande
+            string cartJson = Request.Form["cart"];
+            var cartItems = JsonNode.Parse(cartJson)?.AsArray();
+
+            if (cartItems == null)
+            {
+                Console.WriteLine("Erreur : le JSON du panier est vide ou mal formaté.");
+                return Content("erreur");
+            }
+
+            foreach (var item in cartItems)
+            {
+                if (item is JsonObject jsonObject)
+                {
+                    var produitCommande = new ProduitCommande
+                    {
+                        ProduitId = jsonObject["id"] != null ? Convert.ToInt32(jsonObject["id"].ToString()) : 0,
+                        CommandeId = nouvelleCommande.Id,
+                        Quantite = jsonObject["quantite"] != null ? Convert.ToInt32(jsonObject["quantite"].ToString()) : 0,
+                    };
+                    _context.ProduitCommandes.Add(produitCommande);
+                    _context.SaveChanges();
+                }
+                else
+                {
+                    Console.WriteLine("Erreur : l'élément du panier n'est pas un objet JSON valide.");
+                    return Content("erreur");
+                }
+            }
+
+
+
+
+            TempData["SuccessMessage"] = "Commande ajoutée avec succès!";
+            return Redirect("/Cart#Panier");
+            //ayman dir hna return Redirect( hna ktab lview)  
+
+
         }
 
         // GET: Commandes/Edit/5

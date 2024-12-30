@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Bassma.Models.Contact>
+
+<div class="header">
+    <h1>Messages des Utilisateurs</h1>
+    <p class="text-muted">Voici les messages soumis par les utilisateurs.</p>
+</div>
+
+<table class="table mt-4">
+    <thead style="background-color: rgb(66, 38, 42); color: white;">
+        <tr>
+            <th>Nom</th>
+            <th>Email</th>
+            <th>Message</th>
+            <th>Date de Soumission</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var contact in Model)
+            {
+                <tr>
+                    <td style="padding: 15px;">@contact.Name</td>
+                    <td style="padding: 15px;">@contact.Email</td>
+                    <td style="padding: 15px;">@contact.Message</td>
+                    <td style="padding: 15px;">@contact.SubmittedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4" class="text-center text-muted" style="padding: 15px; font-style: italic;">
+                    Aucun message soumis pour le moment.
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

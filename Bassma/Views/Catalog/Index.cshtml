@@ -1,52 +1,155 @@
-﻿@{
+﻿@model List<Bassma.Models.Produit>
+
+@{
     ViewData["Title"] = "Catalog";
 }
-<!-- Link to Original Surfer font -->
+
+/* Include fonts and styles */
 <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
-
-<!-- Link to Oxygen font -->
 <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-
 <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="~/css/styles.css">
+
+
+<style>
+    /* Catalog Hero Section */
+    .catalog-hero {
+        position: relative;
+        width: 100vw; /* Full viewport width */
+        height: 90vh; /* Full viewport height */
+        background: url('/images/5.jpg') no-repeat center center; /* Center image */
+        background-size: cover; /* Ensure image covers the full width and height */
+        display: flex;
+        justify-content: flex-start; /* Align content to the left */
+        align-items: center; /* Vertically center the content */
+        text-align: left;
+        margin-top: 55px; /* Reduced space between navbar and image */
+        
+    }
+
+    /* Overlay for Lightening the Background */
+    .catalog-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 40px; /* Adjust padding around the content */
+    }
+
+    /* Content inside the Hero Section */
+    .catalog-content {
+        color: #fff; /* Change text to black for better readability */
+        padding: 20px;
+        max-width: 700px; /* Restrict width of the content */
+        padding-top: 170px; /* Adjust spacing from the top */
+    }
+    .custom-product-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+        gap: 20px; /* Gap between items */
+        row-gap: 40px; /* Space specifically between rows */
+        max-width: 1200px;
+        margin: 0 auto; /* Center the grid */
+        justify-content: center; /* Ensure the grid aligns in the center */
+    }
+
+    .custom-product-card {
+        border: none;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 330px; /* Consistent card width */
+        text-align: left; /* Left-align the text */
+        padding: 15px;
+    }
+
+        .custom-product-card img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+
+    .custom-product-details {
+        padding: 10px 0; /* Add spacing between text and the image */
+    }
+
+    .custom-product-title {
+        color: rgb(66, 38, 42);
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .custom-product-price {
+        color: rgb(66, 38, 42);
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .custom-btn-add-to-cart {
+        background-color: rgb(66, 38, 42);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 0; /* Make the button taller */
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%; /* Full width of the card */
+        text-align: center;
+    }
+
+        .custom-btn-add-to-cart:hover {
+            background-color: #5a3b36;
+        }
+</style>
+
+
+
+
+
+
+
 <!-- Navbar Section -->
 <header>
     <nav class="navbar">
-        <!-- Search Icon (Top Left) -->
         <div class="nav-search">
-            <input type="text" class="search-input" placeholder="Search...">
+            <form id="searchForm" method="get" action="/Catalog/Index">
+                <input type="text" name="searchTerm" id="searchTerm" class="search-input" placeholder="Search..."
+                     
+            </form>
+            
         </div>
-
-
-        <!-- Left Section (Home, Catalog) -->
         <div class="nav-left">
             <a href="/" class="nav-link">HOME</a>
             <a href="/Catalog" class="nav-link">CATALOG</a>
         </div>
-
-        <!-- Center Logo -->
         <div class="nav-center">
             <a href="/"><img src="~/images/logo.png" alt="Sweet Cravings Logo" class="logo"></a>
         </div>
-
-
-        <!-- Right Section (Shop, Contact) -->
         <div class="nav-right">
             <a href="/Shop" class="nav-link">SHOP</a>
             <a href="/#contact" class="nav-link">CONTACT</a>
         </div>
-
-        <!-- Auth Buttons (Sign Up, Login) -->
         <div class="nav-auth">
             <a href="/Identity/Account/Register" class="btn-signup">SIGN UP</a>
             <a href="/Identity/Account/Login" class="btn-login">LOGIN</a>
-
         </div>
     </nav>
 </header>
+
 <section class="catalog-hero">
     <div class="catalog-overlay">
         <div class="catalog-content">
@@ -90,7 +193,6 @@
         </div>
     </div>
 </section>
-
 <!-- New Arrivals Section -->
 <section class="catalog-new-arrivals">
     <!-- NEW ARRIVALS BOX -->
@@ -137,114 +239,64 @@
     <img src="/images/43.jpg" alt="Macarons" class="wide-image">
 </section>
 
+<!-- Product Gallery Section -->
 
-<section class="product-gallery">
-    <div class="product-card">
-        <img src="/images/1.jpeg" alt="Pistachio Rose Cake" class="product-image">
-        <h3>Pistachio Rose Cake</h3>
-        <p>28 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/14.jpg" alt="Raspberry Swirl Croissant" class="product-image">
-        <h3>Raspberry Swirl Croissant</h3>
-        <p>16 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/32.jpg" alt="Classic Portuguese Egg Tarts" class="product-image">
-        <h3>Classic Portuguese Egg Tarts</h3>
-        <p>20 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/6.jpeg" alt="Almond Blossom Cheesecake" class="product-image">
-        <h3>Almond Blossom Cheesecake</h3>
-        <p>115 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
+<section id="productSection" class="catalog-section product-section">
+    <h2 class="product-gallery-title">Products</h2>
+    <div id="productGrid" class="custom-product-grid">
+        @foreach (var product in Model)
+        {
+            <div class="custom-product-card" data-name="@product.Nom">
+                <img src="@product.ImagePath" alt="@product.Nom" class="custom-product-image">
+                <div class="custom-product-details">
+                    <h3 class="custom-product-title">@product.Nom</h3>
+                    <p class="custom-product-price">@product.Prix MAD</p>
+                </div>
+                <button class="custom-btn-add-to-cart">ADD TO CART</button>
+            </div>
+        }
     </div>
 </section>
 
-<section class="product-gallery">
-    <div class="product-card">
-        <img src="/images/16.jpg" alt="Peach Blossom Delight" class="product-image">
-        <h3>Peach Blossom Delight</h3>
-        <p>26 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/matcha.jpeg" alt="Matcha Cherry Slice" class="product-image">
-        <h3>Matcha Cherry Slice</h3>
-        <p>24 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/Cookies and Cream Cupcakes.jpeg" alt="Cookies & Cream Cupcake" class="product-image">
-        <h3>Cookies & Cream Cupcake</h3>
-        <p>18 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/106.jpg" alt="Classic Tiramisu Slice" class="product-image">
-        <h3>Classic Tiramisu Slice</h3>
-        <p>32 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-</section>
 
-<section class="product-gallery">
-    <div class="product-card">
-        <img src="/images/mousse.jpg" alt="Strawberry Mousse Cake" class="product-image">
-        <h3>Strawberry Mousse Cake</h3>
-        <p>64 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/Rasperry.jpeg" alt="Raspberry Velvet Slice" class="product-image">
-        <h3>Raspberry Velvet Slice</h3>
-        <p>24 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/31.jpg" alt="Honey Glazed Brioche" class="product-image">
-        <h3>Honey Glazed Brioche</h3>
-        <p>12 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/24.jpg" alt="Cinnamon Swirl Roll" class="product-image">
-        <h3>Cinnamon Swirl Roll</h3>
-        <p>14 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-</section>
 
-<section class="product-gallery">
-    <div class="product-card">
-        <img src="/images/Roll.jpeg" alt="Strawberry Swiss Roll" class="product-image">
-        <h3>Strawberry Swiss Roll</h3>
-        <p>18 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/pistache.jpeg" alt="Pistachio Dome Delight" class="product-image">
-        <h3>Pistachio Dome Delighte</h3>
-        <p>25 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/choc.jpeg" alt="Chocolate Dipped Croissant" class="product-image">
-        <h3>Chocolate Dipped Croissant</h3>
-        <p>15 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-    <div class="product-card">
-        <img src="/images/Tiramisu.jpeg" alt="Tiramisu Muffin" class="product-image">
-        <h3>Tiramisu Muffin</h3>
-        <p>22 MAD</p>
-        <button class="btn-add-to-cart">ADD TO CART</button>
-    </div>
-</section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.getElementById('searchTerm');
+        const productGrid = document.getElementById('productGrid');
+
+        searchInput.addEventListener('keyup', function () {
+            const searchTerm = this.value.toLowerCase();
+            const products = productGrid.querySelectorAll('.custom-product-card');
+
+            products.forEach(product => {
+                const productName = product.getAttribute('data-name').toLowerCase();
+                if (productName.startsWith(searchTerm)) {
+                    product.style.display = 'block'; // Affiche le produit
+                } else {
+                    product.style.display = 'none'; // Cache le produit
+                }
+            });
+
+            // Défilement automatique vers la section des produits
+            const productSection = document.getElementById('productSection');
+            if (productSection) {
+                productSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+
+        document.getElementById('searchForm').addEventListener('submit', function () {
+            const productSection = document.getElementById('productSection');
+            if (productSection) {
+                setTimeout(() => {
+                    productSection.scrollIntoView({ behavior: 'smooth' });
+                }, 500); // Attente du rechargement
+            }
+        });
+    });
+
+</script>
+
 
 
 

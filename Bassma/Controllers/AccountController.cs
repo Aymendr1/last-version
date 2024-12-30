@@ -40,7 +40,7 @@ namespace Bassma.Controllers
             // Handle role-based redirection
             return user.Role switch
             {
-                "Admin" => Redirect("/dashboard"),// Redirect to Admin Dashboard
+                "Admin" => Redirect("/Home/Dashboard"),// Redirect to Admin Dashboard
                 "Livreur" => Redirect("/Livraisons"),// Redirect to Livreur page
                 "User" => Redirect("/home"),// Redirect to User Home
                 _ => Redirect("/home"),// Handle null or unexpected roles by redirecting to the Home page
@@ -66,7 +66,7 @@ namespace Bassma.Controllers
             if (result.Succeeded)
             {
                 await _signInManager.SignInAsync(user, isPersistent: false);
-                return RedirectToAction("Index", "Home"); // Redirect to User Home
+                return RedirectToAction("Home", "Dashboard"); // Redirect to User Home
             }
 
             foreach (var error in result.Errors)

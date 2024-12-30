@@ -13,6 +13,14 @@ namespace Bassma.Controllers
             _context = context;
         }
 
+        // Index Action to Display All Messages
+        public IActionResult Index()
+        {
+            var messages = _context.Contacts.ToList();
+            return View(messages);
+        }
+
+        // Submit Action for Submitting New Messages
         [HttpPost]
         public IActionResult Submit(Contact contact)
         {

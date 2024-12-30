@@ -29,31 +29,45 @@
 
     .card {
         border: none;
-        border-radius: 5px; /* Reduced border-radius */
+        border-radius: 5px;
         background-color: white;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
+        height: 100%; /* Ensures cards have the same height */
     }
 
-        .card:hover {
-            transform: scale(1.05);
-        }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .card img {
+        max-height: 200px; /* Increased image height */
+        object-fit: cover;
+        border-radius: 5px;
+        width: 100%; /* Ensures full-width images */
+    }
 
     .card-title {
         color: rgb(66, 38, 42);
         font-weight: bold;
         font-size: 1.2rem;
+        margin-top: 10px;
+        text-align: center;
     }
 
     .card-text {
         color: rgb(66, 38, 42);
         margin: 10px 0;
+        text-align: center;
     }
 
     .btn.add-to-cart {
         background-color: rgb(66, 38, 42);
         color: white;
-        border-radius: 5px; /* Reduced border-radius for buttons */
+        border-radius: 0px;
         padding: 10px 20px;
         transition: background-color 0.3s ease;
     }
@@ -64,7 +78,7 @@
 
     .table {
         background-color: white;
-        border-radius: 5px; /* Reduced border-radius for the table */
+        border-radius: 5px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     }
 
@@ -84,7 +98,7 @@
         color: white;
         background-color: rgb(66, 38, 42);
         padding: 10px 30px;
-        border-radius: 5px; /* Reduced border-radius for the dashboard button */
+        border-radius: 0px;
         text-decoration: none;
         transition: background-color 0.3s ease, transform 0.2s ease;
     }
@@ -97,41 +111,36 @@
     .total-summary {
         color: rgb(66, 38, 42);
         font-weight: bold;
-
     }
 </style>
 
 <!-- Cart Section -->
-<section class="cart-section" style="font-family: 'Poppins', sans-serif; background-color: white; padding: 50px 0;">
+<section class="cart-section">
     <div class="container">
         <!-- Products Section -->
         <div class="products-section mb-5">
-            <h3 style="color: rgb(66, 38, 42); font-weight: bold; margin-bottom: 30px;">Produits Disponibles</h3>
+            <h3>Produits Disponibles</h3>
             <div class="row">
                 @foreach (var produit in Model)
                 {
-                    
-
                     <div class="col-md-3 col-sm-6 mb-4">
-                        <div class="card" style="border: none; border-radius: 15px; background-color: white; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);">
-                            <div class="card-body text-center">
-                                <!-- Image -->
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- Product Image -->
                                 <img src="@(!string.IsNullOrEmpty(produit.ImagePath) ? produit.ImagePath : "/images/default.jpg")"
                                      alt="@produit.Nom"
-                                     class="img-fluid rounded mb-2"
-                                     style="max-height: 150px; object-fit: cover;">
-
+                                     class="img-fluid">
 
                                 <!-- Product Name -->
-                                <h5 class="card-title" style="color: rgb(66, 38, 42); font-weight: bold; font-size: 1.2rem;">@produit.Nom</h5>
+                                <h5 class="card-title">@produit.Nom</h5>
 
-                                <!-- Price -->
-                                <p class="card-text" style="color: rgb(66, 38, 42); margin: 10px 0;">
-                                    Prix : <span style="color: rgb(66, 38, 42); font-weight: bold;">@produit.Prix MAD</span>
+                                <!-- Product Price -->
+                                <p class="card-text">
+                                    Prix : <span style="font-weight: bold;">@produit.Prix MAD</span>
                                 </p>
 
                                 <!-- Add to Cart Button -->
-                                <button class="btn add-to-cart" style="background-color: rgb(66, 38, 42); color: white; border-radius: 25px; padding: 10px 20px;"
+                                <button class="btn add-to-cart"
                                         data-id="@produit.Id" data-nom="@produit.Nom" data-prix="@produit.Prix" data-image="@produit.ImagePath">
                                     Ajouter au Panier
                                 </button>
@@ -144,15 +153,21 @@
 
         <!-- Cart Summary Section -->
         <div class="cart-summary">
-            <h3 style="color: rgb(66, 38, 42); font-weight: bold; margin-bottom: 30px;">Résumé du Panier</h3>
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+            <h3 id="Panier">Résumé du Panier</h3>
             <div class="table-responsive">
-                <table class="table text-center" style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
-                    <thead style="background-color: rgb(66, 38, 42); color: white;">
+                <table class="table text-center">
+                    <thead>
                         <tr>
-                            <th style="padding: 15px;">Produit</th>
-                            <th style="padding: 15px;">Quantité</th>
-                            <th style="padding: 15px;">Prix Total (MAD)</th>
-                            <th style="padding: 15px;">Actions</th>
+                            <th>Produit</th>
+                            <th>Quantité</th>
+                            <th>Prix Total (MAD)</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody id="cart-items">
@@ -160,15 +175,34 @@
                     </tbody>
                 </table>
             </div>
-
             <div class="d-flex justify-content-between align-items-center mt-4">
                 <h4 class="total-summary">Total : <span id="cart-total">0</span> MAD</h4>
-                <a href="/dashboard" class="admin-dashboard-btn">Accéder au Tableau de Bord</a>
+                <a href="/Home/Dashboard" class="admin-dashboard-btn">Accéder au Tableau de Bord</a>
             </div>
         </div>
     </div>
+    <form action="/Commandes/Create" method="post" onsubmit="submitCart()">
+        @using (Html.BeginForm("Create", "Commandes", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <input type="hidden" id="cart" name="cart" value="" />
+            <input type="hidden" id="total" name="total" value="">
+            // <input type="text" name="adresse"/>
+            <button type="submit" class="btn add-to-cart" style="background-color: rgb(66, 38, 42); color: white; border-radius: 25px; padding: 10px 20px;">
+                Commander
+            </button>
+        }
+    </form>
 </section>
 
+<script>
+    function submitCart() {
+        const cartData = JSON.parse(localStorage.getItem('cart')) || [];
+        document.getElementById('cart').value = JSON.stringify(cartData);
+        document.getElementById('total').value = document.getElementById('cart-total').textContent;
+
+    }
+
+</script>
+
 <script src="/js/cart.js"></script>
-
-

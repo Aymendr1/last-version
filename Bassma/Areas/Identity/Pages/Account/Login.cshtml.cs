@@ -122,7 +122,7 @@ namespace Bassma.Areas.Identity.Pages.Account
                     var user = await _userManager.GetUserAsync(User); // Récupère l'utilisateur authentifié
                     return user.Role switch
                     {
-                        "Admin" => Redirect("/dashboard"),// Redirect to Admin Dashboard
+                        "Admin" => Redirect("/Home/Dashboard"),// Redirect to Admin Dashboard
                         "Livreur" => Redirect("/Livraisons"),// Redirect to Livreur page
                         "User" => Redirect("/home"),// Redirect to User Home
                         _ => Redirect("/home"),// Handle null or unexpected roles by redirecting to the Home page
