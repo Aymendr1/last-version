@@ -7,6 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Bassma.Data;
 using Bassma.Models;
+<<<<<<< HEAD
+=======
+using Newtonsoft.Json.Linq;
+using System.Text.Json.Nodes;
+using System.Text.Json; // Pour la désérialisation JSON
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
 using System.Text.Json.Nodes;
 
 namespace Bassma.Controllers
@@ -110,6 +116,11 @@ namespace Bassma.Controllers
 
 
         }
+
+
+
+
+
 
         // GET: Commandes/Edit/5
         public async Task<IActionResult> Edit(int? id)

@@ -152,17 +152,28 @@
         </div>
 
         <!-- Cart Summary Section -->
+<<<<<<< HEAD
         <div class="cart-summary">
+=======
+        <div class="cart-summary" id="Panier">
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
             @if (TempData["SuccessMessage"] != null)
             {
                 <div class="alert alert-success">
                     @TempData["SuccessMessage"]
                 </div>
             }
+<<<<<<< HEAD
             <h3 id="Panier">Résumé du Panier</h3>
             <div class="table-responsive">
                 <table class="table text-center">
                     <thead>
+=======
+            <h3 style="color: rgb(66, 38, 42); font-weight: bold; margin-bottom: 30px;">Résumé du Panier</h3>
+            <div class="table-responsive">
+                <table class="table text-center" style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);"  id="cart-table">
+                    <thead style="background-color: rgb(66, 38, 42); color: white;">
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
                         <tr>
                             <th>Produit</th>
                             <th>Quantité</th>
@@ -187,7 +198,11 @@
             @Html.AntiForgeryToken()
             <input type="hidden" id="cart" name="cart" value="" />
             <input type="hidden" id="total" name="total" value="">
+<<<<<<< HEAD
             // <input type="text" name="adresse"/>
+=======
+           // <input type="text" name="adresse"/>
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
             <button type="submit" class="btn add-to-cart" style="background-color: rgb(66, 38, 42); color: white; border-radius: 25px; padding: 10px 20px;">
                 Commander
             </button>
@@ -200,6 +215,14 @@
         const cartData = JSON.parse(localStorage.getItem('cart')) || [];
         document.getElementById('cart').value = JSON.stringify(cartData);
         document.getElementById('total').value = document.getElementById('cart-total').textContent;
+<<<<<<< HEAD
+=======
+    }
+
+</script>
+
+<script src="/js/cart.js"></script>
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
 
     }
 

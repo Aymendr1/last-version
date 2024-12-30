@@ -84,4 +84,8 @@ function decreaseQuantity(id) {
 // Charger le panier depuis le localStorage au chargement de la page
 document.addEventListener('DOMContentLoaded', () => {
     updateCartUI();
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1

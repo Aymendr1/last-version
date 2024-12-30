@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\last-version_2\\",
   "Documents": [
     {
@@ -61,6 +62,53 @@
     {
       "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\hp\\desktop\\last-version_2\\bassma\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\testme\\Desktop\\last-version\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\controllers\\commandescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\controllers\\commandescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\controllers\\paiementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\controllers\\paiementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\controllers\\produitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\controllers\\produitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|c:\\users\\testme\\desktop\\last-version\\bassma\\bassma.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{80A9A37F-3613-45DF-80E1-029D5B8895DF}|Bassma\\Bassma.csproj|solutionrelative:bassma\\bassma.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
     }
   ],
   "DocumentGroupContainers": [
@@ -70,6 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -150,10 +199,80 @@
               "ViewState": "AgIAAAIAAABgMzMzMzMbwAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T14:26:38.593Z"
+=======
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProduitsController.cs",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Controllers\\ProduitsController.cs",
+              "RelativeDocumentMoniker": "Bassma\\Controllers\\ProduitsController.cs",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Controllers\\ProduitsController.cs",
+              "RelativeToolTip": "Bassma\\Controllers\\ProduitsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T20:27:54.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaiementsController.cs",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Controllers\\PaiementsController.cs",
+              "RelativeDocumentMoniker": "Bassma\\Controllers\\PaiementsController.cs",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Controllers\\PaiementsController.cs",
+              "RelativeToolTip": "Bassma\\Controllers\\PaiementsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T20:27:52.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommandesController.cs",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Controllers\\CommandesController.cs",
+              "RelativeDocumentMoniker": "Bassma\\Controllers\\CommandesController.cs",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Controllers\\CommandesController.cs",
+              "RelativeToolTip": "Bassma\\Controllers\\CommandesController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwG4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T20:06:54.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cart.js",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\wwwroot\\js\\cart.js",
+              "RelativeDocumentMoniker": "Bassma\\wwwroot\\js\\cart.js",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\wwwroot\\js\\cart.js",
+              "RelativeToolTip": "Bassma\\wwwroot\\js\\cart.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-24T19:17:02.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\appsettings.json",
+              "RelativeDocumentMoniker": "Bassma\\appsettings.json",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\appsettings.json",
+              "RelativeToolTip": "Bassma\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-24T19:06:42.415Z"
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+<<<<<<< HEAD
               "Title": "ProduitsController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\last-version_2\\Bassma\\Controllers\\ProduitsController.cs",
               "RelativeDocumentMoniker": "Bassma\\Controllers\\ProduitsController.cs",
@@ -199,10 +318,33 @@
               "ViewState": "AgIAAAQBAAAAAAAAAABwvYIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-29T16:54:07.543Z"
+=======
+              "Title": "Bassma.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Bassma.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "Bassma\\Bassma.csproj.Backup.tmp",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Bassma.csproj.Backup.tmp",
+              "RelativeToolTip": "Bassma\\Bassma.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-24T19:06:41.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Program.cs",
+              "RelativeDocumentMoniker": "Bassma\\Program.cs",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Program.cs",
+              "RelativeToolTip": "Bassma\\Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T19:06:27.948Z"
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< HEAD
               "Title": "CatalogController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\last-version_2\\Bassma\\Controllers\\CatalogController.cs",
               "RelativeDocumentMoniker": "Bassma\\Controllers\\CatalogController.cs",
@@ -211,10 +353,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T17:00:03.639Z"
+=======
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "Bassma\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:43:10.795Z"
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< HEAD
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\last-version_2\\Bassma\\Views\\Home\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Bassma\\Views\\Home\\Dashboard.cshtml",
@@ -259,6 +412,41 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-25T14:14:14.544Z"
+=======
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "Bassma\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwE4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:42:31.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "Bassma\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:39:25.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bassma\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\testme\\Desktop\\last-version\\Bassma\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Bassma\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAJcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T19:12:38.504Z",
+              "EditorCaption": ""
+>>>>>>> 73c769160a587de48028432688bf78a640b1f9f1
             }
           ]
         }
